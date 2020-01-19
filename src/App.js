@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Design from './Components/Design';
+import Development from './Components/Development';
+import Photography from './Components/Photography';
+import Footer from './Components/Footer';
+import EyeC from './Components/Cases/EyeC';
+import GTF from './Components/Cases/GTF';
+import Aoi from './Components/Cases/Aoi';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Route component={Header} />
+          <main>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/design" component={Design} />
+              <Route path="/development" component={Development} />
+              <Route path="/photography" component={Photography} />
+              <Route path="/cases/eyec" component={EyeC} />
+              <Route path="/cases/gtf" component={GTF} />
+              <Route path="/cases/aoi" component={Aoi} />
+            </Switch>
+          </main>
+        <Route component={Footer} />
+      </BrowserRouter>
     </div>
   );
 }
