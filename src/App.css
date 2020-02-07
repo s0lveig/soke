@@ -21,6 +21,10 @@ main {
   background-color: #0f0f0f;
 }
 
+.top-area-home {
+  background-color: #000;
+}
+
 .padded-area {
   padding: 13% 10% 18% 10%;
 }
@@ -68,7 +72,6 @@ a.navbar-brand:hover {
 #menu ul {
   list-style: none;
 }
-
 
 .spacer {
   padding: 100px;
