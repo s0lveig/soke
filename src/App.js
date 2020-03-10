@@ -10,7 +10,7 @@ import Footer from './Components/Footer';
 import EyeC from './Components/Cases/EyeC';
 import GTF from './Components/Cases/GTF';
 import Aoi from './Components/Cases/Aoi';
-
+import Avenue from './Components/Cases/Avenue';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
               <Route path="/design" component={Design} />
               <Route path="/development" component={Development} />
               <Route path="/photography" component={Photography} />
+              <Route path="/cases/avenue" component={Avenue} />
               <Route path="/cases/eyec" component={EyeC} />
               <Route path="/cases/gtf" component={GTF} />
               <Route path="/cases/aoi" component={Aoi} />

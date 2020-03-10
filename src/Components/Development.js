@@ -34,10 +34,24 @@ const Development = () => {
 
             <div className="container-fluid pb-5">
 
+                <div className="row justify-content-center mt-5">
+                <div className="col-11 col-sm-6 pb-3">
+                        <img className="img-fluid" src="./images/webdev/avenue/avenue_2.png" alt="Web development screenshot" />
+                    </div>
+                    <div className="col-8 col-sm-3">
+                        <video width="100%" height="auto" autoplay="autoplay" loop>
+                            <source src="./images/webdev/avenue/video/avenue-mobile.MP4" type="video/mp4" />
+                            You are using an unsupported browser.
+                        </video> 
+                        <p><small>Webdesign &amp; development for Avenue<br />
+                        <Link className="text-reset case-link" to="/cases/avenue">View case study+</Link></small></p>
+                    </div>
+                </div>
+
                 <div className="row justify-content-center mt-5 pb-5">
                     <div className="col-11 col-sm-6 pb-3">
                         <img className="img-fluid" src="./images/webdev/aoi/aoi_web_2.png" alt="Web development screenshot" />
-                        </div>
+                    </div>
                     <div className="col-11 col-sm-5 align-self-end">
                         <img className="img-fluid" src="./images/webdev/aoi/aoi_web_7.png" alt="Web development screenshot" />
                         <p><small>Website &amp; digital shopping experience for Aoi Project.<br />
@@ -67,11 +81,6 @@ const Development = () => {
                     <div className="col-11 col-sm-6">
                         <img className="img-fluid" src="./images/webdev/eyec/eyec_10.png" alt="Web development screenshot" />
                     </div>
-                </div>
-
-                <div className="row justify-content-center mt-1">
-                    
-                    
                 </div>
 
                 <div className="row justify-content-center mt-5">

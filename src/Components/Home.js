@@ -20,11 +20,25 @@ const Home = () => {
                         Photography <span className="p-4">&rarr;</span> Design <span className="p-4">&rarr;</span> Web development</small> </p>
                     </div>
                 </div>
+
+                <div className="row mt-3 justify-content-center">
+                    <div className="col-12">
+                        <a href="/cases/avenue"><img className="img-fluid" src="./images/webdev/avenue/avenue_2.png" alt="AVENUE FYI" /></a>
+                    </div>
+                </div>
+
+                <div className="row justify-content-center mt-3">
+                    <p className="col-3">Avenue</p>
+                    <p className="col-9 col-sm-6">
+                    For Avenue we designed and developed a new website and online shop reflecting their identity as a fashion brand. The design direction is a mix between future and brutalism. 
+                    </p>
+                    <p className="col-12 col-sm-3 text-right"><Link className="text-reset case-link" to="/cases/avenue">View case study+</Link></p>
+                </div>
                 
 
                 <div className="row mt-3 justify-content-center">
                     <div className="col-12">
-                        <img className="img-fluid" src="./images/webdev/eyec/eyec_10.png" />
+                        <a href="/cases/eyec"><img className="img-fluid" src="./images/webdev/eyec/eyec_10.png" alt="Eye_C Magazine" /></a>
                     </div>
                 </div>
 
@@ -38,10 +52,10 @@ const Home = () => {
 
                 <div className="row mt-5 justify-content-center no-gutters">
                     <div className="col-6">
-                        <img className="img-fluid" src="./images/design/aoi_look.jpg" />
+                        <a href="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_look.jpg" alt="Aoi Project" /></a>
                     </div>
                     <div className="col-6">
-                        <img className="img-fluid" src="./images/design/aoi_10.jpg" />
+                        <a href="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_10.jpg" alt="Aoi Project" /></a>
                     </div>
                 </div>
 
@@ -55,10 +69,10 @@ const Home = () => {
 
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
-                        <video width="100%" height="auto" autoplay="autoplay" loop>
+                        <a href="/cases/gtf"><video width="100%" height="auto" autoplay="autoplay" loop>
                             <source src="./images/webdev/gtf/video/GTFvid.mp4" type="video/mp4" />
                             You are using an unsupported browser.
-                        </video> 
+                        </video></a>
                     </div>
                 </div>
 
