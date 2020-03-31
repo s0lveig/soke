@@ -4,6 +4,9 @@ import Projects from './Projects';
 import { Route, Link } from 'react-router-dom';
 
 const Home = () => {
+
+    window.scrollTo(0, 0);
+    
     return(
         <>
         <div id="home-container">
