@@ -25,9 +25,9 @@ const Design = () => {
                     <h4 className="col-11  col-sm-3">
                         Design &amp; Creative direction
                     </h4>
-                    <p className="col-11 col-sm-6">We offer a range of photography services with art direction included – specializing in still life photography.
-                        
-                        You can get a glimpse of our work in this gallery, don't hesitate to contact us with any special enquiries.
+                    <p className="col-11 col-sm-6">
+                        We offer a range of design services, from a logo to complete branding packages.
+                        We specialize in type design and creative direction.
                     </p>
                 </div>
 

@@ -24,9 +24,10 @@ const Development = () => {
                     <h4 className="col-11 col-sm-3">
                         Web design &amp; Development
                     </h4>
-                    <p className="col-11 col-sm-6">We offer a range of photography services with art direction included – specializing in still life photography.
-                        
-                        You can get a glimpse of our work in this gallery, don't hesitate to contact us with any special enquiries.
+                    <p className="col-11 col-sm-6">
+                        We deliver complete solutions for web - from design to development and launch.
+                        We do custom designs with full flexibility, and build your site on an easy to use CMS platform.
+                        In this way, it is easy for you to use and update your site in the future.
                     </p>
                 </div>
 
