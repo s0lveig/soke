@@ -23,7 +23,7 @@ const Home = () => {
 
                 <div className="row mt-3 justify-content-center">
                     <div className="col-12">
-                        <a href="/cases/avenue"><img className="img-fluid" src="./images/webdev/avenue/avenue_2.png" alt="AVENUE FYI" /></a>
+                        <Link className="text-reset case-link" to="/cases/avenue"><img className="img-fluid" src="./images/webdev/avenue/avenue_2.png" alt="AVENUE FYI" /></Link>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Home = () => {
 
                 <div className="row mt-3 justify-content-center">
                     <div className="col-12">
-                        <a href="/cases/eyec"><img className="img-fluid" src="./images/webdev/eyec/eyec_10.png" alt="Eye_C Magazine" /></a>
+                        <Link className="text-reset case-link" to="/cases/eyec"><img className="img-fluid" src="./images/webdev/eyec/eyec_10.png" alt="Eye_C Magazine" /></Link>
                     </div>
                 </div>
 
@@ -52,10 +52,10 @@ const Home = () => {
 
                 <div className="row mt-5 justify-content-center no-gutters">
                     <div className="col-6">
-                        <a href="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_look.jpg" alt="Aoi Project" /></a>
+                        <Link className="text-reset case-link" to="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_look.jpg" alt="Aoi Project" /></Link>
                     </div>
                     <div className="col-6">
-                        <a href="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_10.jpg" alt="Aoi Project" /></a>
+                        <Link className="text-reset case-link" to="/cases/aoi"><img className="img-fluid" src="./images/design/aoi_10.jpg" alt="Aoi Project" /></Link>
                     </div>
                 </div>
 
@@ -69,10 +69,10 @@ const Home = () => {
 
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
-                        <a href="/cases/gtf"><video width="100%" height="auto" autoplay="autoplay" loop>
+                        <Link className="text-reset case-link" to="/cases/gtf"><video width="100%" height="auto" autoplay="autoplay" loop>
                             <source src="./images/webdev/gtf/video/GTFvid.mp4" type="video/mp4" />
                             You are using an unsupported browser.
-                        </video></a>
+                        </video></Link>
                     </div>
                 </div>
 
