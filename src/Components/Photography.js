@@ -71,7 +71,7 @@ const Photography = () => {
                     </div>
                     <div className="col-9 col-sm-4">
                         <img className="img-fluid" src="./images/photo/aoi5.jpg" alt="Product Photography" />
-                        <p><small>Product photography for <a className="text-reset case-link" href="http://aoiproject.eu" target="_blank">Aoi Project</a></small></p>
+                        <p><small>Product photography for <a className="text-reset case-link" href="http://aoiproject.eu" target="_blank" rel="noopener noreferrer">Aoi Project</a></small></p>
                     </div>
                 </div>
 
@@ -129,7 +129,7 @@ const Photography = () => {
                 <div className="row justify-content-center mt-5">
                     <div className="col-11 col-sm-10">
                         <img className="img-fluid" src="./images/photo/eam.jpg" alt="Location Photography" />
-                        <p><small>Feature photography for <a className="text-reset case-link" href="http://eyecmag.com" target="_blank">Eye_C Magazine</a></small></p>
+                        <p><small>Feature photography for <a className="text-reset case-link" href="http://eyecmag.com" target="_blank" rel="noopener noreferrer">Eye_C Magazine</a></small></p>
                     </div>
                 </div>
 
