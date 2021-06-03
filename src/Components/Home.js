@@ -8,7 +8,7 @@ const Home = () => {
     window.scrollTo(0, 0);
     
     return(
-        <>
+        <div>
         <div id="home-container">
 
             <div className="container-fluid">
@@ -91,7 +91,7 @@ const Home = () => {
 
         <Route component={Projects} />
         <Route component={About} />
-        </>
+        </div>
     )
 }
 
